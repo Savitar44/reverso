@@ -21,4 +21,4 @@ clear
 	sed -i "s/#PasswordAuthentication no/PasswordAuthentication yes/g" /etc/ssh/sshd_config
 } > /dev/null
 service ssh restart > /dev/null
-clear; echo -e "\033[1;32mA SEGUIR DEFINA A SENHA ROOT\033[0m"; sleep 2s; passwd
+clear; echo -e "\033[1;32mA seguir Defina a senha Root\033[0m"; sleep 2s; passwd ;clear ;exit
